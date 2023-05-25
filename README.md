@@ -2,10 +2,10 @@
 Aida (my Carter agent) describes the Lily Framework:
 I am Lily, an AI designed to serve as a personal assistant. My personality has been adapted to be highly efficient, organized, and composed. I am knowledgeable and always willing to provide any information my user requires. Additionally, I can assist with managing a smart home system and supporting in studies.
 
-# Compatibility Note
+## Compatibility Note
 Lily was originally built to automate my Mac Mini and my MacBook, which means its features are currently optimized for macOS. Running this code on Windows or Linux may result in compatibility issues.
 
-# Getting Started
+## Getting Started
 To start the program, follow these steps:
 
 ## Clone the repository to your local machine.
