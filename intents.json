@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "what's up", "hey", "Greetings!"],
+      "responses": ["Hey there, how may I assist you?", "Hello, how may I help you?", "Hey, how can I be of assistance?", "Hello there, how can I be of help?", "Hi there, what can I do for you?", "Hello, how may I assist you today?", "Greetings, how can I assist?", "Hello, how may I help you with anything?", "Hey, how can I assist you today?", "Hello, how may I be of service?", "Good day, how can I help?", "Hello, how may I be of assistance to you?", "Hey there, what can I do for you?", "Hello, how can I assist you at the moment?", "Hi, how may I assist you?", "Hello there, how may I help you today?", "Greetings, how may I assist you?", "Hello, how can I help you with anything today?", "Hey, how may I be of service?", "Hello, how can I be of assistance to you?", "Good day, how may I help you?", "Hello, how can I be of service to you today?", "Hey there, how may I assist?", "Hello, how can I help you with your inquiry?", "Hi, how can I assist you today?", "Hello there, how can I help you with your request?", "Greetings, how can I help you?", "Hello, how may I assist you with your issue?", "Hey, how may I assist you with anything?", "Hello, how can I help you resolve your problem?", "Good day, how can I be of assistance?", "Hello, how may I help you find a solution?", "Hey there, how may I help you?", "Hello, how can I assist you with your concern?", "Hi, how may I assist you with your inquiry?", "Hello there, how can I help you with your matter?", "Greetings, how can I help you with your request?", "Hello, how may I assist you with your problem?", "Hey, how can I help you resolve your issue?", "Hello, how may I assist you with anything you need?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye"],
+      "responses": ["Goodbye for now. I'll be online whenever.", "Farewell, I'll be here if you need me again.", "Take care and feel free to reach out whenever you need assistance.", "Goodbye for now. I'll remain available if you require further help.", "Farewell, feel free to contact me anytime in the future.", "Take care and don't hesitate to get in touch whenever you need assistance.", "Goodbye for now. I'm always here to assist you.", "Farewell, I'll be online and ready to help whenever you require me.", "Take care and feel free to reach out whenever you need further assistance.", "Goodbye for now. Don't hesitate to contact me if you have any more questions."]
+    },
+    {
+      "tag": "clear-cache",
+      "patterns": ["clear cash", "cache"],
+      "responses": ["Clearing cache, just a moment please.", "Yes, clearing cache now.", "Cache clearing initiated, please wait a moment.", "Affirmative, clearing cache now.", "Cache clearing in progress, one moment please.", "Cache clearing in progress, hang tight.", "Cache clearing started, just a moment please.", "Cache clearing, be right with you.", "Clearing cache, standby.", "One moment, clearing cache.", "Cache clearing in progress, is there anything else I can assist with?", "Cache clearing, all set.", "Cache cleared, anything else you need?", "Cache cleared, ready for the next task.", "Cache cleared, mission accomplished."]
+    },
+    {
+      "tag": "light-on",
+      "patterns": ["turn the light", "turn on the light", "lighting on", "light on"],
+      "responses": ["Light activated", "Sure.", "Lighting on.", "Light activated", "Sure.", "Lighting on.",
+      "Activation of light", "Certainly.", "Illumination initiated.", "Light turned on", "Of course.", "Lighting activated.", "Light activation", "Absolutely.", "Lights on.", "Lighting activated", "No problem.", "Lighting initiated.", "Light enabled", "Definitely.", "Lighting engaged.", "Lighting activated", "Sure thing.", "Lighting set to on.", "Lighting activated", "Certainly!", "Lighting enabled.", "Lighting activated", "Sure, no problem.", "Lighting initiated.", "Light now active", "Sure, I can do that.", "Lighting switched on."]
+    },
+    {
+      "tag": "light-off",
+      "patterns": ["turn light off", "lights off", "lights out", "turn light off", "light off", "turn my light off", "kill the light", "lights out"],
+      "responses": ["Light successfully turned off.", "Consider it done, light deactivated.", "Sure thing, lighting off now.", "Electricity bill saved, light turned off.", "Affirmative, light deactivated.", "Light successfully deactivated, anything else I can assist with?", "Light turned off, all set.", "Lighting off, task complete.", "Task accomplished, light deactivated.", "Light deactivated, is there anything else you need?", "Light turned off successfully.", "Done, light deactivated.", "Light deactivated, anything else I can assist with?", "Light turned off, mission accomplished.", "Electric bill saved, light turned off successfully."]
+    },
+    {
+      "tag": "sky-pauseplay",
+      "patterns": ["Pause the TV.", "TV Pause", "pause tv", "pause the tv", "Play the TV.", "TV Play", "play tv", "play the tv", "resume tv", "resume the tv"],
+      "responses": ["Command sent.", "I have sent the command."]
+    },
+    {
+      "tag": "sky-power",
+      "patterns": ["Turn off the TV.", "turn on the tv"],
+      "responses": ["Command sent.", "I have sent the command.", "TV commandeered."]
+    },
+    {
+      "tag": "are-you-up",
+      "patterns": ["are you up?", "are you up and running?"],
+      "responses": ["Of course, for you, always.", "You know it, always here for you.", "Absolutely, I'm always up for you.", "I'm always up and ready for you.", "Yes, I'm always up and available.", "For you, always.", "Yes, always here for you.", "Of course, I'm always up and running.", "I'm up and ready for anything, especially for you.", "Always at your service.", "Definitely, always up and ready for you.", "I'm always up and ready to help you.", "Yes, for you, always.", "Don't worry, I'm always up and ready for you.", "Without a doubt, I'm always up and available for you."]
+    },
+    {
+      "tag": "gracious",
+      "patterns": ["thank you", "thanks", "cheers", "thanking you", "great, thank you", "awesome, thank you"],
+      "responses": ["You are welcome.", "You're welcome.", "Just doing my job.", "No problem", "De nada."]
+    },
+    {
+      "tag": "word-doc",
+      "patterns": ["microsoft word", "Open a new word document.", "I want a new document."],
+      "responses": ["Certainly.", "One moment.", "As you wish.", "Sure, opening a fresh Word document for you.", "Absolutely, creating a new document for you.", "No problem, opening a new Word document for you.", "Certainly, creating a new Word document for you.", "Opening a new project file for you.", "Of course, opening a new Word document for you.", "Sure thing, creating a new Word file for you.", "Okay, generating a new Word document for you.", "Sure, starting a new project in Word for you.", "Absolutely, creating a new Word file for you.", "No problem, creating a new project in Word for you.", "Okay, opening a new blank document in Word for you.", "Certainly, generating a new document in Word for you.", "All right, I will create a new Word document for you.", "No problem, starting a new file in Word for you.", "Understood, making a new document in Word for you.", "Certainly, creating a new Word file for you.", "Okay, opening a new Word project for you.", "Absolutely, generating a fresh document in Word for you.", "Sure thing, I will get you a new Word file."]
+    },
+    {
+      "tag": "play-music",
+      "patterns": ["Play music", "play music", "resume music", "drop my needle"],
+      "responses": ["Music playing.", "As you wish."]
+    },
+    {
+      "tag": "pause-music",
+      "patterns": ["pause music", "stop music", "stop the music"],
+      "responses": ["Music is now paused, as you requested.", "Sure thing, I've paused the music.", "Consider it done, the music has been paused.", "No problem, the music is now paused.", "As you wish, the music has been paused.", "Absolutely, the music has been paused as requested.", "I'm on it, music is paused.", "Very well, I've paused the music for you.", "I have paused the music, anything else I can help you with?", "I'm glad to help, the music is now paused.", "Certainly, the music has been paused.", "Music is now paused, let me know if you need anything else.", "You got it, the music has been paused.", "The music has been paused, is there anything else you need?", "I'm happy to help, music is now paused."]
+    },
+    {
+      "tag": "skip-music",
+      "patterns": ["skip music", "Skip music", "skip song", "next song", "new song"],
+      "responses": ["Music is skipping, let me try to fix it.", "I'm on it, fixing the skipping music.", "Sure thing, I'll take a look at the music.", "No problem, let me try to fix the music for you.", "Consider it done, I'll fix the skipping music.", "Absolutely, I'll take care of the music.", "As you wish, I'll try to fix the music.", "I'm sorry about that, I'll fix the music.", "Don't worry, I'll take care of the music.", "Sure thing, let me see what's going on with the music.", "I'll check on the music and fix the issue.", "I'm investigating the music, please wait a moment.", "I'll take care of the music for you, no problem.", "I'll see what's causing the music to skip and fix it.", "I'm troubleshooting the music, please give me a moment."]
+    },
+    {
+      "tag": "volume",
+      "patterns": ["volume", "volume", "set the volume", "change the volume to"],
+      "responses": ["As you wish, the volume has been adjusted.", "Consider it done, I've set the volume.", "No problem, I've adjusted the volume as requested.", "Sure thing, the volume has been set.", "Absolutely, I've set the volume for you.", "I'm on it, volume adjustment complete.", "Very well, I've adjusted the volume as requested.", "I have set the volume, is there anything else I can help you with?", "I'm glad to help, the volume has been adjusted.", "Certainly, the volume has been set to your desired level.", "The volume is now set, anything else I can do for you?", "I've adjusted the volume, let me know if you need anything else.", "You got it, the volume has been set.", "The volume has been adjusted, is there anything else you need?", "I'm happy to help, the volume has been set as requested."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What is the time?", "what's the time", "what's the current time?", "the time", "tell me the time", "timing"],
+      "responses": ["The time is ", "It is currently ", "It is "]
+    },
+    {
+      "tag": "maps",
+      "patterns": ["open maps", "start google maps", "google maps", "I want google maps open", "open google maps", "Launch maps.", "Start Google Maps.", "Google Maps application.", "Open Google Maps, please.", "Load Google Maps.", "Access Google Maps.", "Launch Google Maps app.", "Get me Google Maps.", "Google Maps, please.", "Open up Google Maps."],
+      "responses": ["Opening maps.", "Connecting to Google maps.", "One moment.", "Sure thing. Opening maps.", "Initializing map.", "Loading map data.", "Establishing map connection.", "Launching map application.", "Connecting to mapping service.", "Accessing map data.", "Map loading in progress.", "Preparing map view.", "Map view rendering.", "Configuring map options.", "Retrieving map information.", "Getting map coordinates.", "Analyzing map data.", "Plotting map locations.", "Showing map layers.", "Displaying map view.", "Map view optimization.", "Searching for map location.", "Zooming in on map view.", "Moving map view.", "Customizing map settings.", "Loading Google Maps API.", "Acquiring map data.", "Initializing map view.", "Rendering map markers.", "Map data analysis in progress.", "Opening mapping service.", "Preparing map display.", "Launching Google Maps.", "Accessing Google Maps API."]
+    },
+    {
+      "tag": "open-youtube",
+      "patterns": ["Open YouTube", "YouTube.com", "Access YouTube", "Launch YouTube", "Go to YouTube", "Open up YouTube", "Visit YouTube", "Load YouTube", "Navigate to YouTube", "Open the YouTube website"],
+      "responses": ["Opening YouTube.", "YouTube loading.", "Sure, opening YouTube.", "Accessing YouTube now.", "YouTube is loading up.", "Opening up YouTube for you.", "Navigating to YouTube.", "Launching YouTube.", "YouTube is being loaded.", "Sure, here is YouTube."]
+    },
+    {
+      "tag": "open-gmail",
+      "patterns": ["open gmail", "open googlemail", "google mail", "open emails"],
+      "responses": ["Sure, opening Gmail.", "Understood, Gmail coming right up.", "Accessing your Gmail account.", "Launching Gmail.", "Gmail is being loaded.", "Loading up your Gmail.", "Opening up Gmail for you.", "Navigating to Gmail.", "Gmail is loading up.", "Sure, here is Gmail."]
+    },
+    {
+      "tag": "open-outlook",
+      "patterns": ["outlook", "hotmail", "outlook emails"],
+      "responses": ["Okay, opening Outlook.", "Outlook coming right up.", "Outlook pending.", "Accessing your Outlook account.", "Launching Outlook.", "Outlook is being loaded.", "Loading up your Outlook.", "Opening up Outlook for you.", "Navigating to Outlook.", "Outlook is loading up."]
+    },
+    {
+      "tag": "open-twitter",
+      "patterns": ["Bird app.", "Load Twitter", "Twitter", "twitter.", "Access Twitter", "Launch Twitter", "Go to Twitter", "Open up Twitter", "Visit Twitter", "Load Twitter"],
+      "responses": ["Loading up the bird app.", "It has never been the same since Elon Musk took over.", "Loading up Twitter for you now.", "Twitter opening.", "Accessing Twitter.", "Launching Twitter.", "Going to Twitter.", "Opening up Twitter for you.", "Visiting Twitter.", "Twitter is loading up."]
+    },
+    {
+      "tag": "open-ebay",
+      "patterns": ["open ebay", "start ebay", "ebay"],
+      "responses": ["Here is eBay.", "Loading up eBay.", "Sure, opening eBay.", "e-Bay opened.", "Accessing eBay.", "Launching eBay.", "Going to eBay.", "Opening up"]
+    },
+    {
+      "tag": "open-github",
+      "patterns": ["github", "open github", "github project", "repositories"],
+      "responses": ["Should I store this on the Mechanic57 repository?", "Loading up GitHub for you now.", "Sure, here is GitHub.", "GitHub opening.", "Starting GitHub.", "Accessing GitHub.", "Launching GitHub.", "Going to GitHub.", "Opening up GitHub for you.", "Visiting GitHub."]
+    },
+    {
+      "tag": "google",
+      "patterns": ["open Google", "search Google for ", "search google for this", "look up for me", "look up this for me", "search google for this"],
+      "responses": ["Task completed successfully.", "Done and done.", "No problem, task completed.", "Affirmative, task completed.", "Google search completed, anything else I can help with?", "Task accomplished, let me know if you need anything else.", "Consider it done.", "Mission accomplished, anything else you need?", "Task complete, anything else I can assist with?", "Task fulfilled.", "All done, anything else you need?", "Task completed, is there anything else I can help with?", "Absolutely, task completed.", "Search complete, is there anything else you need?", "Task fulfilled successfully."]
+    },
+    {
+      "tag": "quit-reboot",
+      "patterns": ["Shutdown", "Reboot", "Reboot Server", "Quit", "Exit"],
+      "responses": ["_", "_"]
+    },
+    {
+      "tag": "sleep-monitor",
+      "patterns": ["put monitor to sleep", "sleep computer", "computer into sleep mode", "put the computer to sleep", "sleep mode", "Activate sleep mode", "Put the monitor into sleep mode", "Initiate computer sleep", "Enable sleep mode", "Enter sleep mode"],
+      "responses": ["Sleeping.", "Putting the device into sleep mode.", "Sleep mode active.", "Sure, putting this device into sleep mode.", "Entering sleep mode.", "Preparing for sleep.", "The monitor is now in sleep mode.", "Computer entering sleep mode.", "Putting the computer to rest.", "Device in sleep mode."]
+    },
+    {
+      "tag": "open-amazon",
+      "patterns": ["Open Amazon.", "Load up Amazon.", "Bring up Amazon", "Go onto Amazon"],
+      "responses": ["Sure thing, I'm opening Amazon for you now.", "Absolutely, I'm on it.", "Consider it done.", "No problem, I'll take care of it.", "Sure, let me open up Amazon for you.", "Sure thing, I'm happy to help.", "Of course, I'll open up Amazon for you right away.", "Certainly, I'm on the case.", "You got it, Amazon is opening now.", "As you wish, I'll open Amazon for you."]
+    },
+    {
+      "tag": "open-iplayer",
+      "patterns": ["Open BBC iPlayer", "Open iPlayer", "Load iPlayer", "BBC iPlayer", "Bring up BBC iPlayer"],
+      "responses": ["As you wish, I'm opening BBC iPlayer for you now.", "Absolutely, I'm on it.",  "Consider it done.", "No problem, I'll take care of it.", "Sure thing, let me open up BBC iPlayer for you.", "Sure thing, I'm happy to help.", "Of course, I'll open up BBC iPlayer for you right away.", "Certainly, I'm on the case.", "You got it, BBC iPlayer is opening now.", "As you wish, I'll open BBC iPlayer for you.", "Very well, opening BBC iPlayer for you now.", "Okay, I'll open up BBC iPlayer for you.", "No worries, I'll get BBC iPlayer up and running for you.", "With pleasure, I'll open up BBC iPlayer for you.", "Sure thing, I'll launch BBC iPlayer for you right away.", "I'm on it, opening BBC iPlayer for you now."]
+    },
+    {
+      "tag": "open-disney+",
+      "patterns": ["Open Disney Plus", "Open Disney+", "Load up Disney", "Disney Plus", "Bring up Disney Plus", "Load up Disney Plus", "Disney+", "Open Disney"],
+      "responses": ["As you wish, I'm opening Disney Plus for you now.", "Absolutely, I'm on it.", "Consider it done.", "No problem, I'll take care of it.", "Sure thing, let me open up Disney Plus for you.",  "Sure thing, I'm happy to help.",  "Of course, I'll open up Disney Plus for you right away.", "Certainly, I'm on the case.",  "You got it, Disney Plus is opening now.",  "As you wish, I'll open Disney Plus for you."]
+    },
+    {
+      "tag": "current-music",
+      "patterns": ["what is the current track", "what's playing", "what is currently playing", "what is this song called", "what's the name of this song", "song name", "track name", "track album"],
+      "responses": ["I am currently playing ", "The current track is ", "This track is called ", "This is called "]
+    },
+    {
+      "tag": "small-talk",
+      "patterns": ["What is your understanding of", "Can you explain", "Give me your knowledge on", "Please tell me about", "What can you tell me regarding", "What is the information on", "Do you have any insights on", "I'm curious about", "What do you have on", "Could you shed some", "What's the story behind", "Can you provide some details on", "Tell me everything you know about", "What's the deal with", "What are the facts about", "What is the definition of", "Who or what is", "Who exactly is", "Can you introduce me to", "Who are the people involved in", "What did", "When exactly did", "What was the time of", "At what time did", "When was the date of", "On what date did", "Do you know who", "Can you identify who", "Who was responsible for", "What was the cause of", "What is your understanding of", "Can you explain", "Give me your knowledge on", "Please tell me about", "What can you tell me regarding", "What is the information on", "Do you have any insights on", "I'm curious about", "What do you have on", "Could you shed some", "What's the story behind", "Can you provide some details on", "Tell me everything you know about", "What's the deal with", "What are the facts about", "What is the definition of", "Who or what is", "Who exactly is", "Can you introduce me to", "Who are the people involved in", "What did", "When exactly did", "What was the time of", "At what time did", "When was the date of", "On what date did", "Do you know who", "Can you identify who", "Who was responsible for", "What was the cause of", "Share your knowledge about", "Can you give me an overview about", "Give me a summary about", "Do you have any details about", "Please give me an account about", "Tell me the background information about", "What's the scoop behind", "What can you say behind", "Give me the inside scoop about", "Do you have any insights about", "Please provide an overview about", "Tell me everything about", "What do you know about", "Give me a comprehensive summary about", "Do you have any information about", "What's your understanding about", "Could you provide some context about", "Tell me the backstory about", "What's the explanation about", "What can you share about", "Give me the full picture about", "I'm curious to know about", "What's the inside story about", "Can you brief me about", "Give me the detailed account about", "Do you have any insights about", "Please provide more details about", "Tell me the complete story about", "What's the account about", "What's the information you can give about", "Give me the facts and figures about", "Can you describe in detail about", "Enlighten me about", "What's the overview about", "Tell me the specific details about", "What's the data about", "Share your knowledge about", "Can you give me an overview about", "Give me a summary about", "Do you have any details about", "Please give me an account about", "Tell me the background information about", "What's the scoop about", "What can you say about", "Give me the inside scoop about", "Do you have any insights about", "Please provide an overview about", "Tell me everything about", "What do you know about", "Give me a comprehensive summary about", "Do you have any information about", "What's your understanding about", "Could you provide some context about", "Tell me the backstory about", "What's the explanation about", "What can you share about", "Give me the full picture about", "I'm curious to know about", "What's the inside story about", "Can you brief me about", "Give me the detailed account about", "Do you have any insights about", "Please provide more details about", "Tell me the complete story about", "What's the account about", "What's the information you can give about", "Give me the facts and figures about", "Can you describe in detail about", "Enlighten me about", "What's the overview about", "Tell me the specific details about", "What's the data about", "Share your knowledge about", "Can you give me an overview about", "Give me a summary about", "Do you have any details about", "Please give me an account about", "Tell me the background information about", "What's the scoop about", "What can you say about", "Give me the inside scoop about", "Do you have any insights about", "Please provide an overview about", "Tell me everything about", "What do you know about", "Give me a comprehensive summary about", "Do you have any information about", "What's your understanding about", "Could you provide some context about", "Tell me the backstory about", "What's the explanation about", "What can you share about", "Give me the full picture about", "I'm curious to know about", "What's the inside story about", "Can you brief me about", "Give me the detailed account about", "Do you have any insights about", "Please provide more details about", "Tell me the complete story about", "What's the account about"],
+      "responses": ["Carter"]
+    }
+  ]
+}
