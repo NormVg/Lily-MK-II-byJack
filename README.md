@@ -22,7 +22,7 @@ Before running the code, ensure that you fill out the variables in ai_config_tem
 Your own forks and improvements to the Lily Framework are highly encouraged and appreciated! If you have any ideas, bug fixes, or enhancements, please feel free to contribute by creating a fork and submitting a pull request.
 
 ### Discussion and Support
-If you would like to discuss this project or need any help, please join the Lily-Sanware Discord server: https://discord.gg/Y2WrYkh7pr
+If you would like to discuss this project or need any help, please join the Lily-Sanware Discord server: (https://discord.gg/PjQ4cveNdr)
 
 We have a friendly community ready to assist you with any questions or concerns you may have.
 
