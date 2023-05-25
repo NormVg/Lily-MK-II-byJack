@@ -116,12 +116,6 @@ def SentryNLG(sentence, User):
     f.write(f"{ResponseOutput}")
     f.close()
 
-    f = open("Memory.txt", "a")
-    f.write("\n\n ")
-    f.write(f"\n{sentence}")
-    f.write(f"\n{ResponseOutput}")
-    f.close()
-
     ResponseType = "Generated"
 
     gail = open("ResponseType.txt", "w")
