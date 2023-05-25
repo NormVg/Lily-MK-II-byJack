@@ -8,14 +8,14 @@ Lily was originally built to automate my Mac Mini and my MacBook, which means it
 # Getting Started
 To start the program, follow these steps:
 
-# Clone the repository to your local machine.
+## Clone the repository to your local machine.
 Make any necessary modifications to the code to ensure compatibility with your operating system.
 Open a terminal or command prompt and navigate to the project directory.
 Run the following command: python3 system.py
 Choose the desired interface from the available options.
 For all interfaces except for Ultron and the Monitor, you'll need to run the server interface using system.py, which creates a port interface for localhost:8000.
 
-# Configuration
+## Configuration
 Before running the code, ensure that you fill out the variables in ai_config_template.py. This step is important as it allows you to customize the code according to your requirements. Fill in your Carter APIs, Discord APIs, and any other necessary configurations.
 
 # Contributing
